@@ -1,0 +1,176 @@
+.Board {
+    position: absolute;
+    top: 64px;
+    bottom: 64px;
+    right: 64px;
+    left: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.Board-Panel {
+    margin: auto;
+    width: 100%;
+    height: 100%;;
+    display: flex;
+    flex-grow: 0.5;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.Board-Space {
+    height: 48px;
+}
+
+.Board-Panel-Editor {
+    height: 100%;
+    display: flex;
+    border-radius: 12px 12px 0 0;
+    background: #ffffff;
+}
+
+.Board-Panel-Separator {
+    height: 1px;
+    background: #e9ecf1;
+}
+
+.Board-Panel-Toolbar {
+    height: 64px;
+    display: flex;
+    border-radius: 0 0 12px 12px;
+    background: #ffffff;
+}
+
+.Board-Panel-Toolbar-Button {
+
+}
+
+textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    padding: 24px;
+    margin: 0;
+    background: none;
+    resize: none;
+    color: #50596a;
+    font-family: 'HelveticaNeue-Local', 'Helvetica Neue', 'Roboto', Helvetica;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+textarea::placeholder {
+    color: #202839;
+    opacity: 0.38;
+}
+
+.Board-Panel-Toolbar {
+    min-height: 64px;
+}
+
+.Board-Panel-ButtonGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    margin-left: auto;
+    margin-right: 8px;
+}
+
+.Board-Panel-Button {
+    margin: 8px;
+    margin-left: auto;
+    padding: 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 48px;
+    background: transparent;
+    transition: 0.48s;
+}
+
+.Board-Panel-Button:hover {
+    background: #f4f4f6;
+    transition: 0.32s;
+}
+
+.Board-Panel-Button:active {
+    background: #ececef;
+    transition: 0.08s;
+}
+
+.Icon {
+    margin: 0;
+    width: 16px;
+    height: 16px;
+    padding: 16px;
+}
+
+.Board-Panel-Switcher {
+    display: flex;
+    margin-left: 28px;
+}
+
+.Board-Panel-Switcher-Label {
+    margin: auto;
+    margin-right: 8px;
+    padding: 0;
+    color: #202839;
+    font-family: 'HelveticaNeue-Local', 'Helvetica Neue', 'Roboto', Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.Board-Panel-Switcher-Button {
+    border: none;
+    outline: none;
+    background: transparent;
+    margin: auto;
+    padding: 0;
+    cursor: pointer;
+    color: #c3375e;
+    font-family: 'HelveticaNeue-Local', 'Helvetica Neue', 'Roboto', Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.Board-Panel-Counter {
+    display: flex;
+    margin-left: 28px;
+}
+
+.Board-Panel-Counter-Label {
+    margin: auto;
+    margin-right: 8px;
+    padding: 0;
+    color: #202839;
+    font-family: 'HelveticaNeue-Local', 'Helvetica Neue', 'Roboto', Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.Board-Tooltip {
+    padding: 4px 12px 4px 12px !important;
+    color: #ffffff !important;
+    font-family: 'Helvetica Neue', 'Roboto', Helvetica;
+    font-size: 12px !important;
+    font-weight: 300;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 768px) {
+    .Board {
+        top: 96px;
+        bottom: 24px;
+        left: 24px;
+        right: 24px;
+    }
+}

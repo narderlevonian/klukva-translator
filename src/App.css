@@ -1,0 +1,85 @@
+
+.App {
+
+}
+
+.Background {
+    background: #c3375e;
+    width: 64vw;
+    height: 100vh;
+}
+
+.Logo {
+    position: absolute;
+    top: 64px;
+    bottom: 64px;
+    left: 64px;
+    height: 48px;
+}
+
+.Header {
+    position: absolute;
+    top: 64px;
+    bottom: 64px;
+    left: 64px;
+    right: 50vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Header-Content {
+    margin-right: 64px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    color: #202839;
+    font-family: 'HelveticaNeue-CondensedBlack-Local', 'HelveticaNeue-CondensedBlack', 'Helvetica Neue Condensed Black', 'Helvetica Neue', 'Saira Condensed', Helvetica;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 60px;
+    font-stretch: condensed;
+    text-transform: uppercase;
+}
+
+p {
+    margin: 0;
+    margin-top: 24px;
+    color: #202839;
+    font-family: 'HelveticaNeue-Light-Local', 'Helvetica Neue', 'Roboto', Helvetica;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    max-width: 800px;
+}
+
+a {
+    margin: 0;
+    margin-top: 24px;
+    color: #202839;
+    font-family: 'HelveticaNeue-Light-Local', 'Helvetica Neue', 'Roboto', Helvetica;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    max-width: 800px;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .Header {
+        display: none;
+    }
+
+    .Logo {
+        top: 24px;
+        bottom: 24px;
+        left: 24px;
+    }
+
+    .Background {
+        height: 36vh;
+        width: 100vw;
+    }
+}
