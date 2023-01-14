@@ -1,7 +1,7 @@
 {
     "name": "klukva-translator",
     "version": "1.0.0",
-    "description": "Klükva... for converting Cyrillic text in Russian into Latin",
+    "description": "Web application for converting Cyrillic text in Russian into Latin",
     "author": "Nar der Levonian",
     "license": "MIT",
     "homepage": "http://narderlevonian.online/klukva-translator/",
