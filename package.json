@@ -4,7 +4,7 @@
     "description": "Web application for converting Cyrillic text in Russian into Latin",
     "author": "Nar der Levonian",
     "license": "MIT",
-    "homepage": "http://narderlevonian.online/klukva-translator/",
+    "homepage": "http://narderlevonian.space/klukva-translator/",
     "keywords": [
         "npm",
         "node",
@@ -26,7 +26,7 @@
         "react": "^17.0.2",
         "react-copy-to-clipboard": "^5.0.3",
         "react-dom": "^17.0.2",
-        "react-scripts": "4.0.3",
+        "react-scripts": "^5.0.1",
         "react-scroll-sync": "^0.9.0",
         "react-tooltip": "^4.2.17",
         "web-vitals": "^1.1.1"
