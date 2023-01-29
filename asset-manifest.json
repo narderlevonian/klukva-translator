@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/klukva-translator/static/css/main.8195eb6a.css",
+    "main.js": "/klukva-translator/static/js/main.efde833b.js",
+    "static/js/787.a7d82082.chunk.js": "/klukva-translator/static/js/787.a7d82082.chunk.js",
+    "static/media/HelveticaNeue.ttf": "/klukva-translator/static/media/HelveticaNeue.429952c9178a72dda2fe.ttf",
+    "static/media/HelveticaNeue-Medium.ttf": "/klukva-translator/static/media/HelveticaNeue-Medium.b67087305ceff3406de9.ttf",
+    "static/media/HelveticaNeue-Light.ttf": "/klukva-translator/static/media/HelveticaNeue-Light.8c1c8f8eb138f20c3fa9.ttf",
+    "static/media/HelveticaNeue-CondensedBlack.ttf": "/klukva-translator/static/media/HelveticaNeue-CondensedBlack.ca891c1d0c65f79f6c4e.ttf",
+    "static/media/logo.svg": "/klukva-translator/static/media/logo.0a58b208396b5849646461e64383b3b1.svg",
+    "static/media/copy.svg": "/klukva-translator/static/media/copy.7232b27a7f1d45a42aaccf7bf011b5df.svg",
+    "static/media/export.svg": "/klukva-translator/static/media/export.f0ae1084c23dd26a33901abcb7564155.svg",
+    "index.html": "/klukva-translator/index.html",
+    "static/media/clear.svg": "/klukva-translator/static/media/clear.960a9a987c2c45e02067ef58a9bfbf76.svg",
+    "main.8195eb6a.css.map": "/klukva-translator/static/css/main.8195eb6a.css.map",
+    "main.efde833b.js.map": "/klukva-translator/static/js/main.efde833b.js.map",
+    "787.a7d82082.chunk.js.map": "/klukva-translator/static/js/787.a7d82082.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8195eb6a.css",
+    "static/js/main.efde833b.js"
+  ]
+}
